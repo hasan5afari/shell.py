@@ -1,7 +1,7 @@
 import sys
 
-from command import Command
-from builtin_commands import BuiltinCommands
+from app.command import Command
+from app.builtin_commands import BuiltinCommands
 
 
 def generate_command(input: str) -> Command:
